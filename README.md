@@ -6,5 +6,8 @@ Requisitos:
 2. instalar git
 3. clonar https://github.com/IzquierdoDiego/pruebaBDB.git
 
+NOTA: 
+Puesto de Mysql 6033
+
 Inicio: 
 1. correr comando docker-compose up
