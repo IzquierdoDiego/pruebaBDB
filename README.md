@@ -11,3 +11,9 @@ Puesto de Mysql 6033
 
 Inicio: 
 1. correr comando docker-compose up
+
+
+
+# nodejs
+
+Version: 14.11.0
