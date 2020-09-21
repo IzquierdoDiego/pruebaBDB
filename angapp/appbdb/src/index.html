@@ -8,6 +8,15 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+	<form [formGroup]="formAdd" (ngSubmit)='agregar()'>
+	   <label for="namel">Location name:</label><br>
+	   <input type="text" id="name" name=namel"><br>
+	   <label for="area_2m">Location area M2:</label><br>
+	   <input type="text" id="area" name="area_2m"><br>
+	   <label for="parent">Parent location:</label><br>
+           <input type="text" id="parent" name="parent"><br>
+	   <button type"submit" >Agregar</button>
+	  
+	</form> 
 </body>
 </html>
